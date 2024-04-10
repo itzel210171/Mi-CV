@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #86895d;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: relative;
+    float: right;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+ 
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color:#f8ffaf;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color:#b4b97e;
+}
+
+.header {
+    display: 12;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.header-txt h1 {
+    font-size: 150px;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    font-family: 'Barlow', sans-serif;
+    margin: 10px 0 25px 0;
+    text-align: center;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 35px;
+    background: linear-gradient(
+        90deg,
+        #5d5f41 0%,
+        #a6aa76 100%
+    );
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.about {
+    padding: 0 0 80px 0;
+    display: flex;
+    align-items: center;
+}
+ 
+.about img {
+    flex-basis: 40%;
+}
+
+.about-img img {
+    width: 450px;
+    border-radius: 15px;
+}
+ 
+.about-txt {
+    flex-basis: 60%;
+}
+
+h2 {font-size: 40px;
+    text-transform: uppercase;
+    color:#b8bb81;
+    margin-bottom: 20px;
+    text-align: center;
+}
+ 
+.about-txt p{
+    color:#ffffff;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.butons a {
+    margin-right: 15px;
+}
+ 
+.datos-container {
+    padding: 0%;
+    text-align: center;
+}
+
+.datos-1{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+
+.datos-txt {
+    flex-basis: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.datos-txt span {
+    font-size: 40px;
+    font-weight: 600;
+    display: block;
+    color: #d4da93;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.datos-txt span {
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    color: #d4da93;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+ 
+.datos-txt h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.datos-txt p {
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+ 
+.datos-txt ul li {
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.footer {
+    padding: 50px;
+    background: linear-gradient(
+        90deg,
+        #5d5f41 0%,
+        #a6aa76 100%
+    );
+    text-align: center;
+}
+ 
+.link h3{
+    color: #c2c2c2;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+ 
+.link a {
+    color: #FFFFFF;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.project {
+    color:rgb(252, 252, 252);
+    font-size: 17px;
+    text-align: center;
+}
+ 
+.project a {
+    display: inline-block;
+    justify-content: center;
+    padding: 13px 35px;
+    background: linear-gradient(
+        90deg,
+        #5d5f41 0%,
+        #a6aa76 100%
+    );
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+}
+ 
+.project1 h2 {
+    color:rgb(143, 161, 98);
+    font-size: 40px;
+    margin-bottom: 0 auto;
+    text-align: center;
+}
+ 
+.project1 p {
+    color:rgb(252, 252, 252);
+    font-size: 17px;
+    text-align: center;
+    margin: 40px;
+}
+ 
+.project1 h3 {
+    color:rgb(214, 234, 142);
+    font-size: 30px;
+    text-align: center;
+}
+ 
+.project1 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;    
+}
+
+.project2 a {
+    display: inline-block;
+    padding: 13px 35px;
+    background: linear-gradient(
+        90deg,
+        #5d5f41 0%,
+        #a6aa76 100%
+    );
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+}
+ 
+.project2 p {
+    color:rgb(252, 252, 252);
+    font-size: 17px;
+    text-align: center;
+    margin: 23.3px;
+}
+ 
+.container1 {
+    color:rgb(252, 252, 252);
+    font-size: 17px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+ 
+.container1 a {
+    display: inline-block;
+    padding: 13px 35px;
+    background: linear-gradient(
+        90deg,
+        #5d5f41 0%,
+        #a6aa76 100%
+    );
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+}
+ 
+.container2 {
+    color:rgb(252, 252, 252);
+    font-size: 17px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.container2 a {
+    display: inline-block;
+    padding: 13px 35px;
+    background: linear-gradient(
+        90deg,
+        #5d5f41 0%,
+        #a6aa76 100%
+    );
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+}
+ 
+.container3 {
+    color:rgb(252, 252, 252);
+    font-size: 17px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+ 
+.container3 a {
+    display: inline-block;
+    padding: 13px 35px;
+    background: linear-gradient(
+        90deg,
+        #5d5f41 0%,
+        #a6aa76 100%
+    );
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+}
+ 
+.container4 {
+    color:rgb(252, 252, 252);
+    font-size: 17px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+ 
+.container4 a {
+    display: inline-block;
+    padding: 13px 35px;
+    background: linear-gradient(
+        90deg,
+        #5d5f41 0%,
+        #a6aa76 100%
+    );
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+}
+ 
+.container5 {
+    color:rgb(252, 252, 252);
+    font-size: 17px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+ 
+.container5 a {
+    display: inline-block;
+    padding: 13px 35px;
+    background: linear-gradient(
+        90deg,
+        #5d5f41 0%,
+        #a6aa76 100%
+    );
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+}
